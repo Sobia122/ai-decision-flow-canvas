@@ -34,8 +34,8 @@ This project enables users to construct complex decision workflows visually, exe
 Ensure you have Node.js 18+ installed on your machine.
 
 ### 2. Clone the Repository
-
-git clone [https://github.com/Sobia122/ai-decision-flow-canvas.git](https://github.com/Sobia122/ai-decision-flow-canvas.git)
+```bash
+git clone https://github.com/Sobia122/ai-decision-flow-canvas.git
 cd ai-decision-flow-canvas
 3. Install Dependencies
 Bash
