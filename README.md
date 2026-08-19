@@ -1,4 +1,3 @@
-
 # AI Decision Flow Canvas
 
 An interactive visual decision-tree builder and orchestration engine powered by Next.js 15, React Flow, Inngest, and Google Gemini AI.
@@ -37,26 +36,36 @@ Ensure you have Node.js 18+ installed on your machine.
 ```bash
 git clone https://github.com/Sobia122/ai-decision-flow-canvas.git
 cd ai-decision-flow-canvas
-3. Install Dependencies
-Bash
-npm install
-4. Configure Environment Variables
-Create a .env.local file in the root directory:
+```
 
+### 3. Install Dependencies
+```bash
+npm install
+```
+
+### 4. Configure Environment Variables
+Create a `.env.local` file in the root directory:
+
+```env
 GEMINI_API_KEY=your_gemini_api_key_here
 INNGEST_EVENT_KEY=local-dev-key
-5. Run Development Servers
+```
+
+### 5. Run Development Servers
+
 Start the Next.js development server:
-
-Bash
+```bash
 npm run dev
+```
+
 In a separate terminal window, launch the Inngest Dev Server:
-
-Bash
+```bash
 npx inngest-cli@latest dev
-Canvas UI: http://localhost:3000
+```
 
-Inngest Dashboard: http://localhost:8288
+- **Canvas UI:** http://localhost:3000
+- **Inngest Dashboard:** http://localhost:8288
 
-License
+## License
+
 Distributed under the MIT License.
